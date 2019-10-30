@@ -28,7 +28,7 @@ $plink --dog --file ../2.pre-processing/dogs_filtered --recode vcf-iid --out dog
 #java -Xss5m -Xmx4g -jar ~/Documents/beagle4.1/beagle.27Jan18.7e1.jar gt=rice_filtered.vcf out=rice_imputed
 #java -Xss5m -Xmx4g -jar ~/Documents/beagle4.1/beagle.27Jan18.7e1.jar gt=dogs_filtered.vcf out=dogs_imputed
 
-if [-n $beagle]; then
+if [ $beagle = beagle ]; then
 	beagle gt=rice_filtered.vcf out=rice_imputed
 	beagle gt=dogs_filtered.vcf out=dogs_imputed
 else
