@@ -13,8 +13,8 @@ plink=/home/filippo/Downloads/plink
 
 cd ../data
 
-#wget https://zenodo.org/record/50803/files/GBSgenotypes.tar.gz
-#wget https://zenodo.org/record/50803/files/plantgrainPhenotypes.txt
+wget https://zenodo.org/record/50803/files/GBSgenotypes.tar.gz
+wget https://zenodo.org/record/50803/files/plantgrainPhenotypes.txt
 
 #tar -xvzf GBSgenotypes.tar.gz
 
@@ -49,8 +49,8 @@ rm rice.log rice.nosex
 ###################################
 
 ## Download data
-#wget http://www.jackdellequerce.com/data/UCD_2014.tfam
-#wget http://www.jackdellequerce.com/data/UCD_2014.tped
+wget http://www.jackdellequerce.com/data/UCD_2014.tfam
+wget http://www.jackdellequerce.com/data/UCD_2014.tped
 #wget https://datadryad.org/bitstream/handle/10255/dryad.77584/UCD_2014.tfam
 #wget https://datadryad.org/bitstream/handle/10255/dryad.77585/UCD_2014.tped
 
@@ -59,3 +59,5 @@ Rscript --vanilla ../1.preparatory_steps/prep_dogpheno.R UCD_2014.tfam
 
 ## subset genotypes
 $plink --dog --tfile UCD_2014 --chr 25,26,27,28,29 --recode --out dogs
+
+echo "DONE!"
