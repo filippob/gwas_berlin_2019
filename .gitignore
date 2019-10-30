@@ -34,3 +34,50 @@ vignettes/*.pdf
 
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
+.Rproj.user
+.Rproj
+*.html
+
+# Plink files
+imputation/*.ped
+imputation/*.map
+imputation/*.log
+*.nosex
+pre-processing/*.frq
+pre-processing/*.frqx
+pre-processing/*.lmiss
+pre-processing/*.imiss
+*.irem
+pre-processing/*.ped
+pre-processing/*.map
+
+# VCF files
+*.vcf
+*.vcf.gz
+
+# other files
+*/*.kinship
+*/*.results
+
+data/*
+*.log
+*.map
+*.ped
+*.swp
+*.pdf
+*.frq
+*.frqx
+*.counts
+*.bed
+*.bim
+*.fam
+*.hwe
+*.imiss
+*.lmiss
+*.strat
+*.raw
+*.het
+*.frq.cc
+*.RData
+*.csv
+6.pipeline/*
