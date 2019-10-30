@@ -16,7 +16,7 @@ cd ../data
 wget https://zenodo.org/record/50803/files/GBSgenotypes.tar.gz
 wget https://zenodo.org/record/50803/files/plantgrainPhenotypes.txt
 
-#tar -xvzf GBSgenotypes.tar.gz
+tar -xvzf GBSgenotypes.tar.gz
 
 wc -l GBSnew.ped
 wc -l GBSnew.map
