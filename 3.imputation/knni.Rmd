@@ -1,7 +1,7 @@
 ---
 title: "Genotype imputation with KNN: a demonstration"
 author: "Filippo Biscarini"
-date: "August 25, 2019"
+date: "October 25, 2019"
 output: html_document
 ---
 
@@ -63,6 +63,9 @@ We'll be using SNP genotype data from 12 samples genotyped with the "**GeneChip 
 A summary of the real missing rate in the data is given below:
 
 ```{r, echo=FALSE}
+## cd ../data
+## wget http://www.jackdellequerce.com/data/GenRiz44.txt
+
 rice44 <- read.table("../data/GenRiz44.txt",header=TRUE)
 oldcode <- c("AA","BB","--")
 neucode <- c(-1,1,NA)

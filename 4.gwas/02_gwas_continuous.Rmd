@@ -1,7 +1,7 @@
 ---
 title: "GWAS - continuous trait"
 author: "Filippo Biscarini"
-date: "September 9, 2019"
+date: "October 9, 2019"
 output:
   html_document: default
   pdf_document: default
