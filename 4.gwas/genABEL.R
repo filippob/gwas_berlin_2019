@@ -27,6 +27,24 @@ qqPlot <- function(res) {
 ####################################################################
 ## !!  NB : YOU FIRST NEED TO TRANSPOSE THE PED/MAP FILES (Plink) !!
 ####################################################################
+pheno = fread("../data/rice_phenotypes.txt")
+pheno$sex <- rep(1,nrow(pheno))
+fwrite(x = pheno, file = "../data/rice_phenotypes_sex.txt", sep = "\t")
+
+tPed = "../data/rice.tped"
+tFam = "../data/rice.tfam"
+phenotype_file = "../data/rice_phenotypes_sex.txt"
+
+convert.snp.tped(tped=tPed,
+                 tfam=tFam,
+                 out="../data/rice.raw",
+                 strand="+")
+
+
+df <- load.gwaa.data(phe=phenotype_file, 
+                     gen="../data/rice.raw",
+                     force=TRUE
+)
 
 ###############################################
 
