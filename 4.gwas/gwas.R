@@ -6,7 +6,7 @@
 ## libraries
 library("qqman")
 library("gMatrix")
-library("svglite")
+# library("svglite")
 library("data.table")
 
 ## include common functions
