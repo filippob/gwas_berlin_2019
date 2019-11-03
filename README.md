@@ -17,4 +17,6 @@ material for the course
 *day 2*
 
 9. GWAS - the basic models: [here](https://docs.google.com/presentation/d/1-LVGvqOdHyXVeZa0hCP4jaCXiEJgWVgbe_41sgBSwQM/edit?usp=sharing)
+10. GWAS - multiple testing and power: [here](https://docs.google.com/presentation/d/1sG0Vl5Yg3bZbhyNvVsKUfhQwvUwL7_3fwImyM8N-bUQ/edit?usp=sharing)
+11. ROH-based alternative approaches: [here](https://docs.google.com/presentation/d/15Db0WI0t0lkFzKLBvVtWuf6nzK8wBfA9kfHJIG2V3Uk/edit?usp=sharing)
 
